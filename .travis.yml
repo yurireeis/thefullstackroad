@@ -1,0 +1,25 @@
+language: ruby
+rvm:
+- 2.2
+cache:
+  bundler: true
+  directories:
+    - node_modules  
+install:
+- bundle install --deployment
+before_script:
+- chmod +x deploy.sh
+script: 
+- bundle exec jekyll build --config _config.yml
+- ./deploy.sh
+env:
+  global:
+  - HTML_FOLDER="./_site/"
+  - GH_REMOTE="https://github.com/yurireeis/thefullstackroad/"
+branches:
+  only:
+  - master
+notifications:
+  email: false
+sudo: false
+

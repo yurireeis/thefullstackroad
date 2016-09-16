@@ -27,3 +27,6 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 theme: minima
+
+# excluded files do do not compile in master branch
+exclude: ['vendor', 'Gemfile', 'Gemfile.lock', 'package.json', 'src', 'node_modules', 'deploy.sh', 'Readme.md', 'initpost.sh', 'gulpfile.js']
