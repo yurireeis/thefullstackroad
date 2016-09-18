@@ -21,7 +21,7 @@ fi
 cd ./_site
 
 git init
+git remote add origin ${GH_REMOTE}
 git add --all
 git commit -m "Deploy to GitHub Pages"
-git remote add origin ${GH_REMOTE}
 git push --force --quiet origin gh-pages
