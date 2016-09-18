@@ -1,7 +1,7 @@
 et -e # halt script on error
 
 # config
-git config --global user.email "yurireis.rpg@gmail.com"
+git config --global user.email "yuri.reis@msn.com"
 git config --global user.name "Yuri Reis"
 git config --global push.default matching
 git config --global core.autocrlf false
