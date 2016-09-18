@@ -22,6 +22,7 @@ cd ./_site
 
 git init
 git add --all
+git pull -p
 git commit -m "Deploy to GitHub Pages"
 git remote add origin ${GH_REMOTE}
 git push --force --quiet origin gh-pages
