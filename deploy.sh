@@ -24,4 +24,5 @@ git init
 git add --all
 git commit -m "Deploy to GitHub Pages"
 git remote add origin ${GH_REMOTE}
+git show-ref
 git push --force origin gh-pages
