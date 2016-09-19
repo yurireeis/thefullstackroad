@@ -6,7 +6,7 @@ git config --global user.name "Yuri Reis"
 git config --global push.default matching
 git config --global core.autocrlf false
 git config --global credential.helper store
-echo "https://${GithubPassword}:@github.com" > ~/.git-credentials
+echo "https://${GH_TOKEN}:@github.com" > ~/.git-credentials
 
 # deploy
 if [[ `git status --porcelain` ]]; then
@@ -18,11 +18,10 @@ if [[ `git status --porcelain` ]]; then
     git push origin master
 fi
 
-cd ./_site
+cd ${HTML_FOLDER}
 
 git init
-git remote add origin ${GH_REMOTE}
 git add --all
-git pull -p
 git commit -m "Deploy to GitHub Pages"
-git push --force --quiet origin gh-pages
+git remote add origin ${GH_REMOTE}
+git push --force origin gh-pages

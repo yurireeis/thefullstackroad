@@ -15,7 +15,7 @@ script:
 env:
   global:
   - HTML_FOLDER="./_site/"
-  - GH_REMOTE="https://github.com/yurireeis/thefullstackroad/"
+  - GH_REMOTE="https://github.com/yurireeis/thefullstackroad.git"
 branches:
   only:
   - master
