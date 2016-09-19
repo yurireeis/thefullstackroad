@@ -20,10 +20,11 @@ fi
 
 cd ${HTML_FOLDER}
 
+rm -rf .git/
 git init
-git add --all
+git add .
 git commit -m "Deploy to GitHub Pages"
-git remote add origin ${GH_REMOTE}
+git remote add origin https://${GH_TOKEN}@github.com/yurireeis/thefullstackroad.git
 # git push --force origin gh-pages
 git fetch
 git push origin gh-pages
