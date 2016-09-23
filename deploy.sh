@@ -26,5 +26,5 @@ cp -Rf ${HTML_FOLDER}* .
 # git init
 git add -f .
 git commit -m "Deploy to GitHub Pages"
-git remote add origin gh-pages
+# git remote add origin gh-pages
 git push -fq origin gh-pages
