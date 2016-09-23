@@ -9,18 +9,18 @@ git clone --branch=gh-pages https://${GH_TOKEN}@github.com/yurireeis/thefullstac
 # echo "https://${GH_TOKEN}:@github.com" > ~/.git-credentials
 
 # deploy
-if [[ `git status --porcelain` ]]; then
-    git stash
-    git checkout master
-    git stash apply
-    git add .
-    git commit -m 'Updated from travis [ci skip]'
-    git push origin master
-fi
+#if [[ `git status --porcelain` ]]; then
+#    git stash
+#    git checkout master
+#    git stash apply
+#    git add .
+#    git commit -m 'Updated from travis [ci skip]'
+#    git push origin master
+#fi
 
 cd gh-pages
 
-cp -Rf ${HTML_FOLDER}* .
+cp -Rf /home/travis/build/yurireeis/thefullstackroad/_site/* . 
 
 # rm -rf .git/
 # git init
