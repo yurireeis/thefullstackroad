@@ -1,12 +1,12 @@
-et -e # halt script on error
-
 # config
 git config --global user.email "yuri.reis@msn.com"
 git config --global user.name "Yuri Reis"
-git config --global push.default matching
-git config --global core.autocrlf false
-git config --global credential.helper store
-echo "https://${GH_TOKEN}:@github.com" > ~/.git-credentials
+# git config --global push.default matching
+# git config --global core.autocrlf false
+# git config --global credential.helper store
+git clone --branch=gh-pages https://${GH_TOKEN}@github.com/yurireeis/thefullstackroad.git gh-pages
+# > /dev/null
+# echo "https://${GH_TOKEN}:@github.com" > ~/.git-credentials
 
 # deploy
 if [[ `git status --porcelain` ]]; then
@@ -18,11 +18,13 @@ if [[ `git status --porcelain` ]]; then
     git push origin master
 fi
 
-cd ${HTML_FOLDER}
+cd gh-pages
 
-rm -rf .git/
-git init
+cp -Rf ${HTML_FOLDER}* .
+
+# rm -rf .git/
+# git init
 git add -f .
 git commit -m "Deploy to GitHub Pages"
-git remote add origin ${GH_REMOTE}
+git remote add origin gh-pages
 git push -fq origin gh-pages
