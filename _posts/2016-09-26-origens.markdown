@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Origens"
+date:   2016-09-26 23:12:40 -0300
+categories: Geral
+---
+Caros leitor(a), desde já agradeço a sua presença aqui!
+
+Já há um bom tempo venho ensaiando para escrever sobre as experiências que venho tendo... Motivo pelo qual eu criei este blog.
+
+
+Em meu primeiro post, gostaria de contar um pouco sobre mim e é claro, `como vim parar na TI`.
+
+Nasci na Bahia (Ilhéus), porém com apenas seis meses de vida meus pais se mudaram para Brasília. Foi por lá que fiquei até os meus 10 anos de vida, e onde adquiri a primeira paixão (se tornando um vício): o videogame.
+
+Iniciei com um NES com uma fita do Super Mario 3, no qual talvez tenha sido o primeiro jogo que zerei na vida. Acho que fiquei com o console até os 7 anos de idade, nesse período tendo também a oportunidade de conhecer o Atari, Master System e Mega Drive.
+
+Uma das lembranças que tenho é que quando jogava Master System na casa de um colega (ao qual não me lembro o nome), existia um jogo que ficava armazenado na memória que era de tiro (era extremamente divertido!), mas eu lembro que eu ficava intrigado na verdade era `como eu mirava para a TV e o videogame identificava onde eu estava mirando?`Eu queria na verdade era saber como toda aquela mágica funcionava.
+
+No natal de 1994 eu finalmente ganhei o SNES. Possivelmente foi o videogame que eu mais me diverti na vida (vindo na sequência o Nintendo 64). O primeiro jogo que eu joguei no mesmo foi o Mortal Kombat, na época era uma febre! O gênero de luta passou a me acompanhar durante a vida como sendo o preferido.
+
+Ainda sobre pontos interessantes nessas jogatinas de infância, lembro que ao jogar Megaman X3 havia um BOSS que era de um estágio no gelo. Esse jogo era um dos mais difíceis na época, mas acabei descobrindo que havia um truque para vencer esse BOSS em específico: `quando utilizava do salto duplo com o MegaMan, o BOSS ficava confuso, dando as costas para o personagem e ficando vulnerável ao ataque`. Era o primeiro BUG em um jogo que eu havia detectado! (hoje atuo como QA)
+
+Já adolescente, ganhei o meu primeiro computador: um `Intel Celeron 669 Mhz com Windows ME`. Meu primeiro aprendizado foi formatar o computador. Aprendi a trocar algumas peças (me lembro do modem 56k ter queimado com um raio que caiu), jogava The Sims com 64 mb de memória e me lembro de ficar tentando editar alguns arquivos do jogo para tentar personalizar ainda mais o game... Isso ia de imagens até tentar mudar o nome dos itens do jogo... Mudava as músicas da rádio também.
+
+Vi que precisava de dinheiro pra fazer o que queria fazer, então tratei de buscar um emprego. O primeiro foi em um Pet Shop... fiquei apenas um dia! Nada contra animais, mas aquilo não era pra mim.
+
+A segunda opção foi no Telemarketing. Primeiro salário? Algo em torno de R$ 260 reais. Em um primeiro momento foi interessante, novas amizades, algumas conquistas... Foi durante esse período que fiz o curso de Tecnólogo em Marketing até a última fase e desisti no TCC. (se pudesse voltar no tempo com certeza mudaria esse ponto)
+
+Saindo da área de serviços fui para o varejo, trabalhar na Renner. Foi a empresa que mais me encantou no sentido de valores! Com uma cultura de devoção forte (um dos temas que pretendo abordar mais a frente), os mesmos eram sentidos em todas as ações que a empresa promovia. Lá tive a minha primeira promoção (me tornei Supervisor Administrativo) passando por um curso de Trainee's.
+
+Voltei para o meu estado de nascimento e morei em Salvador durante aproximadamente dois anos. Nesse período lembro de ficar observando os sistemas da empresa em funcionamento: SGD, SIG, CRM... Tudo aquilo me interessava muito! E meio que sem saber como começar acabei comprando um livro de HTML básico e uma coleção de livros da suíte Adobe. (rs)
+
+Depois disso ainda passei por duas experiências de gestão (Gerente Geral e Gerente Administrativo) até entender que, apesar de ter afinidade com gestão, ainda assim a vontade de `entender como aquela mágica dos games funcionava` permanecia dentro de mim. Tomei coragem e decidi dar um passo pra trás: investi em um curso de PHP e de Java.
+
+Em uma das primeiras aulas de PHP, lembro que o meu professor falou sobre a questão de `nos games nós nunca vencermos, e sim, a máquina deixa com que nós ganhemos`. A lógica? `entrada > processamento > saída`. Sem sombra de dúvidas revisitei alguns games do passado para tirar a prova dos nove... De fato, quando mais fácil era a dificuldade, mais lenta era a reação do meu adversário. Fez sentido.
+
+Após o curso me tornei suporte técnico em outra empresa de telemarketing, sendo promovido após um ano a analista de requisitos. Hoje trabalho em uma empresa que mantém uma plataforma de comunicação interna com elementos de Social Media.
+
+- O que tudo isso tem a ver com o tema Full Stack?
+
+Acredito que seja importante você conhecer bem as suas habilidades para saber onde você pode chegar e também onde você deseja chegar. Hoje estou com 30 anos de idade, com uma bagagem de experiências diversas e com o sonho de ser um Full Stack. Utilizo no dia-a-dia todas os conhecimentos que já adquiri e sempre estou aberto a novos aprendizados. 
+
+Uma das características de um Full Stack é ser generalista, e apesar de haver um senso comum de determinar como um Full Stack sendo um backend~frontend developer (o que já é bastante coisa). Pelo que tenho de experiência, acredito que esse conceito vá mais além...
+
+E você? Tem algo interessante para contar sobre o que originou a sua trilha até a área de TI? Estou curioso para saber!
+
+Mais uma vez obrigado e até a próxima!
