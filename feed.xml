@@ -4,10 +4,10 @@
     <title>The Fullstack Road</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>/thefullstackroad/</link>
-    <atom:link href="/thefullstackroad/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Sep 2016 15:23:50 +0000</pubDate>
-    <lastBuildDate>Tue, 27 Sep 2016 15:23:50 +0000</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 27 Sep 2016 15:30:52 +0000</pubDate>
+    <lastBuildDate>Tue, 27 Sep 2016 15:30:52 +0000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -101,8 +101,8 @@
 
 </description>
         <pubDate>Tue, 27 Sep 2016 02:12:40 +0000</pubDate>
-        <link>/thefullstackroad/geral/2016/09/27/origens.html</link>
-        <guid isPermaLink="true">/thefullstackroad/geral/2016/09/27/origens.html</guid>
+        <link>/geral/2016/09/27/origens.html</link>
+        <guid isPermaLink="true">/geral/2016/09/27/origens.html</guid>
         
         
         <category>Geral</category>
