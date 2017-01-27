@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Fullstack Road</title>
+    <description>~ A trilha de um futuro FullStack Developer ~
+</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 27 Jan 2017 13:44:15 -0200</pubDate>
+    <lastBuildDate>Fri, 27 Jan 2017 13:44:15 -0200</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Milestone</title>
+        <description>&lt;p&gt;Olá pessoal!&lt;/p&gt;
+
+&lt;p&gt;Já se passaram quatro meses desde que dei as caras aqui no blog… Com muito foco no objetivo, acabei deixando de
+lado o projeto do blog e dei mais atenção ao aprendizado técnico. Sim, tem sido uma aventura muito interessante. Tenho
+muitas novidades para contar&lt;/p&gt;
+
+&lt;p&gt;Na empresa ao qual trabalho, mudamos da metodologia SCRUM para o Kanban. Algumas cerimônias estavam reduzindo o tempo
+de desenvolvimento a cerca de 3 dias por semana (isso em semanas boas!) em uma realidade de sprint de 01 semana.
+Trocamos de cloud-based CVS (Bitbucket para Github) e também eliminamos algumas ferramentas que estavam travando o
+fluxo (Jira, Confluence).&lt;/p&gt;
+
+&lt;p&gt;O que obtive de aprendizado em relação a essas trocas? Independente de processos, ferramentas ou metodologias, quem
+fará com que essas emplaquem são as próprias pessoas. Acredito que o Jira e o Confluence sejam ferramentas fantásticas,
+mas que exigem uma disciplina enorme para serem usadas. Posso dizer que passei a dar mais valor a simplicidade depois
+dessas mudanças.&lt;/p&gt;
+
+&lt;p&gt;Ainda permaneço na área de qualidade, e continua sendo uma experiência incrível. Na empresa ao qual trabalho evoluímos
+para CI (Continuous Integration), onde setamos testes automatizados em diversos ambientes (homologação, staging e
+produção). Aprendi também sobre testes de API e de contrato, e agora estou estudando sobre testes unitários.&lt;/p&gt;
+
+&lt;p&gt;Essa virada de chave em relação a CI foi motivada por uma, digamos, puxada de orelha por trás de um desenvolvedor que considero como um dos meus mentores. Em simples palavras ele disse: – como você pode considerar
+ um teste como automatizado se alguém precisa apertar o botão sempre que ele precisa ser acionado?&lt;/p&gt;
+
+&lt;p&gt;Desde então passei a adequar os testes para uma linguagem que me permitisse utilizar o Headless Tests (testes de
+interface sem utilizar o navegador) sem limitações. Migrei do Java para o Python e foi paixão à primeira vista!
+Java e PHP foram as primeiras linguagens ao qual tive contato quando decidi começar a programar, e acho que foi uma
+oportunidade interessante pois as mesmas trabalham com paradigma totalmente diferente.&lt;/p&gt;
+
+&lt;p&gt;Implementamos também o BDD (Behavior Driven Development) em nossa realidade, setando inclusive como um DOR (definition
+of ready) para que novas histórias entre no quadro. Essa foi uma etapa importante, pois assim conseguimos reunir as
+expectativas de todos os envolvidos em um documento, que pelo fato de ser escrito em linguagem humana, documenta também
+regras de negócio da nossa aplicação e permite que os testes automatizados sejam escritos guiados pelo mesmo.&lt;/p&gt;
+
+&lt;p&gt;Hoje tive o primeiro contato com a configuração de um ambiente para realizar o deploy de uma aplicação (por uma
+empresa). Acabei gerando uma pequena indisponibilidade (rs) ao atualizar o PHP/Mysql em uma máquina de produção. Minha
+intenção era colocar no ar o Cachet, uma status page com um projeto de status page open source ao qual vou integrar com
+os testes automatizados para avaliar a dispobibilidade da nossa aplicação. A lição que tirei dessa situação é que
+diferente do ambiente de aprendizado - ou o nosso querido localhost - mudanças não afetam aos outros e que caso eu
+queira cooperar como um desenvolvedor no futuro, devo pensar no todo.&lt;/p&gt;
+
+&lt;p&gt;Bom, esses foram alguns dos aprendizados que obtive nesses últimos quatro meses. Espero que tenham gostado!&lt;/p&gt;
+
+&lt;script&gt;
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '599629900208460',
+      xfbml      : true,
+      version    : 'v2.7'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = &quot;//connect.facebook.net/en_US/sdk.js&quot;;
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+&lt;/script&gt;
+
+&lt;div class=&quot;fb-like&quot; data-share=&quot;true&quot; data-width=&quot;450&quot; data-show-faces=&quot;true&quot;&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;
+&lt;script&gt;(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = &quot;//connect.facebook.net/pt_BR/sdk.js#xfbml=1&amp;version=v2.7&amp;appId=599629900208460&quot;;
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));&lt;/script&gt;
+
+&lt;div class=&quot;fb-comments&quot; data-href=&quot;https://thefullstackroad.com&quot; data-numposts=&quot;5&quot;&gt;&lt;/div&gt;
+
+&lt;script&gt;
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84815514-1', 'auto');
+  ga('send', 'pageview');
+
+&lt;/script&gt;
+
+</description>
+        <pubDate>Fri, 27 Jan 2017 02:22:40 -0200</pubDate>
+        <link>/geral/2017/01/27/milestone.html</link>
+        <guid isPermaLink="true">/geral/2017/01/27/milestone.html</guid>
+        
+        
+        <category>Geral</category>
+        
+      </item>
+    
+      <item>
+        <title>Origens</title>
+        <description>&lt;p&gt;Caros leitor(a), desde já agradeço a sua presença aqui!&lt;/p&gt;
+
+&lt;p&gt;Já há um bom tempo venho ensaiando para escrever sobre as experiências que venho tendo… Motivo pelo qual eu criei este blog.&lt;/p&gt;
+
+&lt;p&gt;Em meu primeiro post, gostaria de contar um pouco sobre mim e é claro, &lt;code class=&quot;highlighter-rouge&quot;&gt;como vim parar na TI&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Nasci na Bahia (Ilhéus), porém com apenas seis meses de vida meus pais se mudaram para Brasília. Foi por lá que fiquei até os meus 10 anos de vida, e onde adquiri a primeira paixão (se tornando um vício): o videogame.&lt;/p&gt;
+
+&lt;p&gt;Iniciei com um NES com uma fita do Super Mario 3, no qual talvez tenha sido o primeiro jogo que zerei na vida. Acho que fiquei com o console até os 7 anos de idade, nesse período tendo também a oportunidade de conhecer o Atari, Master System e Mega Drive.&lt;/p&gt;
+
+&lt;p&gt;Uma das lembranças que tenho é que quando jogava Master System na casa de um colega (ao qual não me lembro o nome), existia um jogo que ficava armazenado na memória que era de tiro (era extremamente divertido!), mas eu lembro que eu ficava intrigado na verdade era &lt;code class=&quot;highlighter-rouge&quot;&gt;como eu mirava para a TV e o videogame identificava onde eu estava mirando?&lt;/code&gt;Eu queria na verdade era saber como toda aquela mágica funcionava.&lt;/p&gt;
+
+&lt;p&gt;No natal de 1994 eu finalmente ganhei o SNES. Possivelmente foi o videogame que eu mais me diverti na vida (vindo na sequência o Nintendo 64). O primeiro jogo que eu joguei no mesmo foi o Mortal Kombat, na época era uma febre! O gênero de luta passou a me acompanhar durante a vida como sendo o preferido.&lt;/p&gt;
+
+&lt;p&gt;Ainda sobre pontos interessantes nessas jogatinas de infância, lembro que ao jogar Megaman X3 havia um BOSS que era de um estágio no gelo. Esse jogo era um dos mais difíceis na época, mas acabei descobrindo que havia um truque para vencer esse BOSS em específico: &lt;code class=&quot;highlighter-rouge&quot;&gt;quando utilizava do salto duplo com o MegaMan, o BOSS ficava confuso, dando as costas para o personagem e ficando vulnerável ao ataque&lt;/code&gt;. Era o primeiro BUG em um jogo que eu havia detectado! (hoje atuo como QA)&lt;/p&gt;
+
+&lt;p&gt;Já adolescente, ganhei o meu primeiro computador: um &lt;code class=&quot;highlighter-rouge&quot;&gt;Intel Celeron 669 Mhz com Windows ME&lt;/code&gt;. Meu primeiro aprendizado foi formatar o computador. Aprendi a trocar algumas peças (me lembro do modem 56k ter queimado com um raio que caiu), jogava The Sims com 64 mb de memória e me lembro de ficar tentando editar alguns arquivos do jogo para tentar personalizar ainda mais o game… Isso ia de imagens até tentar mudar o nome dos itens do jogo… Mudava as músicas da rádio também.&lt;/p&gt;
+
+&lt;p&gt;Vi que precisava de dinheiro pra fazer o que queria fazer, então tratei de buscar um emprego. O primeiro foi em um Pet Shop… fiquei apenas um dia! Nada contra animais, mas aquilo não era pra mim.&lt;/p&gt;
+
+&lt;p&gt;A segunda opção foi no Telemarketing. Primeiro salário? Algo em torno de R$ 260 reais. Em um primeiro momento foi interessante, novas amizades, algumas conquistas… Foi durante esse período que fiz o curso de Tecnólogo em Marketing até a última fase e desisti no TCC. (se pudesse voltar no tempo com certeza mudaria esse ponto)&lt;/p&gt;
+
+&lt;p&gt;Saindo da área de serviços fui para o varejo, trabalhar na Renner. Foi a empresa que mais me encantou no sentido de valores! Com uma cultura de devoção forte (um dos temas que pretendo abordar mais a frente), os mesmos eram sentidos em todas as ações que a empresa promovia. Lá tive a minha primeira promoção (me tornei Supervisor Administrativo) passando por um curso de Trainee’s.&lt;/p&gt;
+
+&lt;p&gt;Voltei para o meu estado de nascimento e morei em Salvador durante aproximadamente dois anos. Nesse período lembro de ficar observando os sistemas da empresa em funcionamento: SGD, SIG, CRM… Tudo aquilo me interessava muito! E meio que sem saber como começar acabei comprando um livro de HTML básico e uma coleção de livros da suíte Adobe. (rs)&lt;/p&gt;
+
+&lt;p&gt;Depois disso ainda passei por duas experiências de gestão (Gerente Geral e Gerente Administrativo) até entender que, apesar de ter afinidade com gestão, ainda assim a vontade de &lt;code class=&quot;highlighter-rouge&quot;&gt;entender como aquela mágica dos games funcionava&lt;/code&gt; permanecia dentro de mim. Tomei coragem e decidi dar um passo pra trás: investi em um curso de PHP e de Java.&lt;/p&gt;
+
+&lt;p&gt;Em uma das primeiras aulas de PHP, lembro que o meu professor falou sobre a questão de &lt;code class=&quot;highlighter-rouge&quot;&gt;nos games nós nunca vencermos, e sim, a máquina deixa com que nós ganhemos&lt;/code&gt;. A lógica? &lt;code class=&quot;highlighter-rouge&quot;&gt;entrada &amp;gt; processamento &amp;gt; saída&lt;/code&gt;. Sem sombra de dúvidas revisitei alguns games do passado para tirar a prova dos nove… De fato, quando mais fácil era a dificuldade, mais lenta era a reação do meu adversário. Fez sentido.&lt;/p&gt;
+
+&lt;p&gt;Após o curso me tornei suporte técnico em outra empresa de telemarketing, sendo promovido após um ano a analista de requisitos. Hoje trabalho em uma empresa que mantém uma plataforma de comunicação interna com elementos de Social Media.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;O que tudo isso tem a ver com o tema Full Stack?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Acredito que seja importante você conhecer bem as suas habilidades para saber onde você pode chegar e também onde você deseja chegar. Hoje estou com 30 anos de idade, com uma bagagem de experiências diversas e com o sonho de ser um Full Stack. Utilizo no dia-a-dia todas os conhecimentos que já adquiri e sempre estou aberto a novos aprendizados.&lt;/p&gt;
+
+&lt;p&gt;Uma das características de um Full Stack é ser generalista, e apesar de haver um senso comum de determinar como um Full Stack sendo um backend~frontend developer (o que já é bastante coisa). Pelo que tenho de experiência, acredito que esse conceito vá mais além…&lt;/p&gt;
+
+&lt;p&gt;E você? Tem algo interessante para contar sobre o que originou a sua trilha até a área de TI? Estou curioso para saber!&lt;/p&gt;
+
+&lt;p&gt;Mais uma vez obrigado e até a próxima!&lt;/p&gt;
+
+&lt;script&gt;
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '599629900208460',
+      xfbml      : true,
+      version    : 'v2.7'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = &quot;//connect.facebook.net/en_US/sdk.js&quot;;
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+&lt;/script&gt;
+
+&lt;div class=&quot;fb-like&quot; data-share=&quot;true&quot; data-width=&quot;450&quot; data-show-faces=&quot;true&quot;&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;
+&lt;script&gt;(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = &quot;//connect.facebook.net/pt_BR/sdk.js#xfbml=1&amp;version=v2.7&amp;appId=599629900208460&quot;;
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));&lt;/script&gt;
+
+&lt;div class=&quot;fb-comments&quot; data-href=&quot;https://thefullstackroad.com&quot; data-numposts=&quot;5&quot;&gt;&lt;/div&gt;
+
+&lt;script&gt;
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84815514-1', 'auto');
+  ga('send', 'pageview');
+
+&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 26 Sep 2016 23:12:40 -0300</pubDate>
+        <link>/geral/2016/09/26/origens.html</link>
+        <guid isPermaLink="true">/geral/2016/09/26/origens.html</guid>
+        
+        
+        <category>Geral</category>
+        
+      </item>
+    
+  </channel>
+</rss>
